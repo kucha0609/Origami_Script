@@ -1,5 +1,5 @@
 # Origami_Script
-<p align="right"> — — KuCha©2024</p>
+<p align="right"> — — KuCha©2026</p>
 
 #### Youtube：https://www.youtube.com/@kucha0609 
 
