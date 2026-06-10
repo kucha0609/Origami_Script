@@ -13,8 +13,6 @@
   - 加载OT的方法
   - 如果OT启动失败怎么办？
 - [三、如何在AutoCAD中使用命令](#三如何在autocad中使用命令)  
-- [四、主程序的功能](#四主程序的功能)  
-- [五、扩展程序的功能](#五扩展程序的功能)  
 
 <div align=center><img src="https://github.com/kucha0609/AutoCAD-Origami-Diagram/blob/master/--Info--/Sponsorship.jpg" width="800"/></div>
 
@@ -24,9 +22,10 @@
 --------------------------------------------------------------------------------------------------------------
 ### [一、基本信息](#零目录--contents)  
 ---------------------------------------------------------------------------------------------------------------
-- **Reference**
+- **software**
 
-	Windows_10 + AutoCAD(Simplified Chinese or English) 
+    .js  用于 Affinity(v3.2+)
+	.jsx 用于 Adobe Illustrator 2025
 
 - **Website**
 
@@ -61,7 +60,7 @@
 		02-推荐AutoCAD的版本 "Version=2018" 。
 		03-你可以在Autodesk申请一个月的AutoCAD试用期。
 	
-	※[申请一个月的AutoCAD试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)  
+
 		
 	※OT加载成功后，启动AutoCAD将自动加载折纸相关的命令
 
@@ -94,80 +93,3 @@
 
 
 <br>
-
---------------------------------------------------------------------------------------------------------------
-### [四、主程序的功能](#零目录--contents)  
---------------------------------------------------------------------------------------------------------------
-※[《Description for OT》](https://github.com/kucha0609/AutoCAD-Origami-Diagram/blob/master/--Info--/%E3%80%8ADescription%20for%20OriTools%E3%80%8B.pdf)
-
-	*功能00: 打开模板文件
-	      →命令:TF ← Template_File
-	*功能00: 当前文件夹
-	      →命令:CF ← Current_Folder
-	*功能01: 配置工作界面: 工作空间WorkSpace + 首选项Option + 状态栏DSETTINGS
-	      →命令:KuCha ← 开发者姓名
-	      →命令:K:UnLoadOriTools ← 插件卸载
-	*功能02: 切换背景色: 深灰色和黑色相互转换
-	      →命令:BG ← BackGround_color_change
-	*功能03: 复位工作环境: 复位状态栏和图层，并将谷线图层置为当前活跃图层
-	      →命令:FW+FS ← 汉字"复位"的拼音
-	*功能04: 创建图层: 新建折纸制图所需的图层
-	      →命令:(K:GetOriLay) 
-	*功能05: 图层切换: 所选对象移动到指定图层 or 切换到指定图层并执行预设的命令
-	      →命令:TT=文字/ SS=符号/ AA=辅助线/ MM=峰线/ VV=谷线/ BB=边线/ RR=黄色辅助线/ EE=已有线条/ FF=深色填充/ FT=阴影填充/ PP=两点中垂线
-	*功能06: 图层转换: 针对Orihime_Mod/Oripa导出的DXF文件
-	      →命令:TL ← Trans_Layer
-	*功能07: 颜色转换: 空选时彩图和白图相互转换。非空选时转换峰谷线类型
-	      →命令:CC ← Change_Color
-	
-	*功能08: 重做填充: 使用拾取对象的方式重新生成填充
-	      →命令:RH ← Redo_Hatch
-	*功能09: 对象顺序: 根据图层名称调整对象显示顺序，并重生成对象
-	      →命令:LO ← Layer_Order
-	*功能10: 一键转换: 颜色转换CC+重做填充RH+字段转换TOTEXT+对象顺序LO
-	      →命令:TOAI
-	
-	*功能11：重排步骤：对选择对象分堆,然后根据列行数重新排序
-	      →命令:RES ← ReOrder_Step
-	*功能12：缩放步骤：对选择对象分堆,然后各自缩放
-	      →命令:SCS ← SCale_Step
-	
-	*功能13: 添加序号:根据序号起始值，按预设模板整体添加序号
-	      →命令:AN ← Add_Number
-	*功能14: 序号增减: 将字符串前面的序号(如果有)统一增加或者减少一个值
-	      →命令:DN ← Delta_Number
-	*功能15: 修复序号:根据序号起始值，按先左右后上下的顺序更新字符串前的序号(如果没有就添加序号)
-	      →命令:FN ← Fix_Number
-	*功能16: 文字替换: 用字符串A中的"内容"替换掉字符串B中的"内容"
-	      →命令:FA ← Fix_AllText
-	      
-	*功能17: 伸缩折线: 将所选择的直线伸长或缩短(正值为伸长,负值为缩短)
-	      →命令:DE ← Delta_Line
-	*功能18: 超级修剪: 修剪区域内部或外部的对象。
-	      →命令:CTR ← Circle_TRIM   
-	*功能19: 旋转视图: UCS+Plan或Rotate。
-	      →命令:RV ← Rotate_View
-	*功能20: 快速打印:仅适用于OriTools
-	      →命令:TOPDF ← Quick_Plot
-      
-	*图层管理: 采用数字+汉语拼音简写的方式来调用对应的图层状态
-	        →命令一:GBTC=1=关闭图层    TCQK=2=图层全开
-	        →命令二:SDTC=3=锁定图层    JSTC=4=解锁图层
-	        →命令三:GBQT=5=关闭其它    SDQT=6=锁定其它
-	        →命令四:HFTC=7=恢复图层    ZWDQ=8=置为当前    
-	        →命令五:YZDQ=9=移至当前    XZLS=0=选择类似
-
-
---------------------------------------------------------------------------------------------------------------
-### [五、扩展程序的功能](#零目录--contents)  
----------------------------------------------------------------------------------------------------------------
-	*功能01：单字递增刷：连续刷文字可呈递增数列
-	      →命令:DZ ← 汉字"递增"的拼音
-	*功能02：带填充拉伸：可连同非关联图案填充一起拉伸。
-	      →命令:S ← Stretch_and_Hatch
-	*功能03：分解属性块：分解带属性块的同时保留属性文字的值(属性块不能用X直接分解)。
-	      →命令:BURST
-	*功能04：检查超短线：处理短于目标长度的线
-	      →命令:CKL ← check_ShortLine
-	*功能05：解组中组：解除组(含嵌套组)
-	      →命令:UNG ← unGroup
