@@ -1,7 +1,7 @@
-# OriTools：Use AutoCAD for Origami Diagram
+# OriScript：Use JavaScript for Origami
 <p align="right"> — — KuCha©2024</p>
 
-#### 百度网盘下载：https://pan.baidu.com/s/1dlbzVAeSLv7UA5Vg-igmJg?pwd=o8h8 
+#### Youtube：https://www.youtube.com/@kucha0609 
 
 ---------------------------------------------------------------------------------------------------------------
 ### [零、目录 / Contents](#零目录--contents)  
