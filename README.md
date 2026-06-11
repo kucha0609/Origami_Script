@@ -1,38 +1,60 @@
 # Origami_Script
-<p align="right"> — — KuCha©2026</p>
 
-#### Youtube：https://www.youtube.com/@kucha0609 
+<p align="right">— — KuCha©2026</p>
 
----------------------------------------------------------------------------------------------------------------
-### [零、目录 / Contents](#零目录--contents)  
----------------------------------------------------------------------------------------------------------------
-- [一、基本信息]  
-- **software**
+#### Youtube：https://www.youtube.com/@kucha0609
 
-    .js  用于 Affinity Designer(v3.2+)<br>
-	.jsx 用于 Adobe Illustrator 2025
 
-- **Website**
+# 一、基本信息
 
-	www.twitter.com/kucha_Mai  
-	www.facebook.com/cha.ku.714  
-	https://space.bilibili.com/28181671
+## Software
 
-- **E-mail**
+* `.js` ：用于 **Affinity Designer（v3.2+）**
+* `.jsx`：用于 **Adobe Illustrator 2025**
 
-	kucha0609@qq.com
+## Website
 
--二、如何加载
-1.在Adobe中：
-    直接拖入软件窗口即可。
-    或者放置在脚本路径再使用它，默认路径是：
-    C:\Program Files\Adobe\Adobe Illustrator [Version]\Presets\[Your Language]\Scripts\
+* Twitter
+  https://www.twitter.com/kucha_Mai
 
-2.在affinity中：
-    安装支持脚本的版本(例如v3.2)，并启用MCP连接（Ctrl+,打开设置,）
-    安装第三方脚本管理软件Script Manager for Afinity
-    将.js插件拖入脚本管理软件，之后点击My Script加载插件
+* Facebook
+  https://www.facebook.com/cha.ku.714
 
-<div align=center><img src="https://github.com/kucha0609/Origami_Script/blob/master/--Info--/Sponsorship.jpg" width="800"/></div>
+* Bilibili
+  https://space.bilibili.com/28181671
+
+## E-mail
+
+* [kucha0609@qq.com](mailto:kucha0609@qq.com)
+
+---
+
+# 二、如何加载
+
+## 1. 在 Adobe Illustrator 中
+
+直接将脚本拖入软件窗口即可。
+
+或者放置到脚本目录后使用，默认路径：
+
+```text
+C:\Program Files\Adobe\Adobe Illustrator [Version]\Presets\[Your Language]\Scripts\
+```
+
+---
+
+## 2. 在 Affinity Designer 中
+
+1. 安装支持脚本的版本（例如 v3.2）。
+2. 启用 MCP 连接（`Ctrl + ,` 打开设置）。
+3. 安装第三方脚本管理软件 **Script Manager for Affinity**。
+4. 将 `.js` 插件拖入脚本管理软件。
+5. 在 **My Script** 中加载插件。
+
+---
+
+<div align="center">
+    <img src="https://github.com/kucha0609/Origami_Script/blob/master/--Info--/Sponsorship.jpg" width="800"/>
+</div>
 
 <br>
