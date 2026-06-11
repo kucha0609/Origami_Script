@@ -1,4 +1,4 @@
-# Origami_Script：used for origami or other
+# Origami_Script：for origami or other
 
 <p align="right">— — KuCha©2026</p>
 
