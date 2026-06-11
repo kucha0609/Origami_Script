@@ -7,8 +7,8 @@
 # 一、基本信息
 
 ## Software
-* `.js` ：用于 **Affinity Designer（v3.2+）**
-* `.jsx`：用于 **Adobe Illustrator**
+* `.js` ：用于 **Affinity（Designer_v3.2+）**
+* `.jsx`：用于 **Adobe**
 
 ## E-mail
 * [kucha0609@qq.com](mailto:kucha0609@qq.com)
