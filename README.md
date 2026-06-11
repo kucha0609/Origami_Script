@@ -1,4 +1,4 @@
-# Origami_Script：for origami or other
+# JavaScript for origami or other
 
 <p align="right">— — KuCha©2026</p>
 
@@ -7,34 +7,18 @@
 # 一、基本信息
 
 ## Software
-* `.js` ：用于 **Affinity（Designer_v3.2+）**
+
 * `.jsx`：用于 **Adobe**
+* `.js` ：用于 **Affinity（Designer_v3.2+）**
 
 ## E-mail
 * [kucha0609@qq.com](mailto:kucha0609@qq.com)
   
 ## Video
-* https://www.youtube.com/@kucha0609
+* www.youtube.com/@kucha0609
 ---
 
 # 二、如何加载
-
-## 在 Adobe Illustrator 中
-
-1. 直接将脚本拖入软件窗口即可。
-2. 或者放置到脚本目录后再使用，默认路径如下。
-
-```text
-C:\Program Files\Adobe\Adobe Illustrator [Version]\Presets\[Your Language]\Scripts\
-```
-```text
-以Adobe Illustrator 2025中文版为例：
-C:\Program Files\Adobe\Adobe Illustrator 2025\Presets\zh_CN\脚本\
-```
-   <div align="center">
-       <img src="https://github.com/kucha0609/Origami_Script/blob/master/--Info--/Adobe_Illustrator_Script.png" width="600"/>
-   </div>
-
 
 ## 在 Affinity Designer 中
 
@@ -53,6 +37,22 @@ C:\Program Files\Adobe\Adobe Illustrator 2025\Presets\zh_CN\脚本\
        <img src="https://github.com/kucha0609/Origami_Script/blob/master/--Info--/Affinity_LoadScript.png" width="600"/>
    </div>
 6.在**Affinity Designer**中打开脚本面板即可使用(窗口->常规->脚本)
+
+## 在 Adobe Illustrator 中
+
+1. 直接将脚本拖入软件窗口即可。
+2. 或者放置到脚本目录后再使用，默认路径如下。
+
+```text
+C:\Program Files\Adobe\Adobe Illustrator [Version]\Presets\[Your Language]\Scripts\
+```
+以Adobe Illustrator 2025中文版为例：
+```text
+C:\Program Files\Adobe\Adobe Illustrator 2025\Presets\zh_CN\脚本\
+```
+   <div align="center">
+       <img src="https://github.com/kucha0609/Origami_Script/blob/master/--Info--/Adobe_Illustrator_Script.png" width="600"/>
+   </div>
 
 ---
 # 三、如何赞助开发者
