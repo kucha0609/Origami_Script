@@ -31,6 +31,9 @@ C:\Program Files\Adobe\Adobe Illustrator [Version]\Presets\[Your Language]\Scrip
 以Adobe Illustrator 2025中文版为例：
 C:\Program Files\Adobe\Adobe Illustrator 2025\Presets\zh_CN\脚本\
 ```
+   <div align="center">
+       <img src="https://github.com/kucha0609/Origami_Script/blob/master/--Info--/Adobe_Illustrator_Script.png" width="600"/>
+   </div>
 
 
 ## 在 Affinity Designer 中
@@ -57,4 +60,3 @@ C:\Program Files\Adobe\Adobe Illustrator 2025\Presets\zh_CN\脚本\
     <img src="https://github.com/kucha0609/Origami_Script/blob/master/--Info--/Sponsorship.jpg" width="600"/>
 </div>
 
-<br>
