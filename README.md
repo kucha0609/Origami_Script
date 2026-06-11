@@ -11,26 +11,24 @@
 * `.jsx`：用于 **Adobe**
 * `.js` ：用于 **Affinity（Designer_v3.2+）**
 
-## E-mail
-* [kucha0609@qq.com](mailto:kucha0609@qq.com)
-  
-## Video
-* www.youtube.com/@kucha0609
+## Other
+* **E-mail :** [kucha0609@qq.com](mailto:kucha0609@qq.com)
+* **Video :** www.youtube.com/@kucha0609
 ---
 
 # 二、如何加载
 
 ## 在 Affinity Designer 中
 
-1. 安装支持脚本的版本（例如 v3.2）。
-2. 启用**MCP**连接（`Ctrl + ,` 打开设置）
+1. 安装支持脚本的软件版本（例如 v3.2）。
+2. 启用**MCP**连接（`Ctrl + ,` 打开设置面板）
 
    <div align="center">
        <img src="https://github.com/kucha0609/Origami_Script/blob/master/--Info--/Affinity_OpenMCP.png" width="600"/>
    </div>
 
 3. 安装第三方脚本管理软件 [**Script Manager for Affinity**](https://github.com/JiriKrblich/Affinity-script-manager/releases/tag/v1.3.2)
-4. 将 `.js` 插件拖入脚本管理软件。
+4. 启动脚本管理软件、将 `.js` 插件拖入左下角。
 5. 在 **My Script** 中加载插件。
 
    <div align="center">
