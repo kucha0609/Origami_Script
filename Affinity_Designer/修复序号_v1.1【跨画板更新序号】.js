@@ -1,6 +1,6 @@
 /**
  * name: 修复序号_v1
- * description: 根据起始序号，先上下后左右的修复
+ * description: 【Kucha开发】先上下后左右修复序号
  * version: 1.1
  * author: Kucha
 */
