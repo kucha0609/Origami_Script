@@ -28,7 +28,7 @@
    </div>
 
 3. 安装第三方脚本管理软件 [**Script Manager for Affinity**](https://github.com/JiriKrblich/Affinity-script-manager/releases/tag/v1.3.2)
-4. 启动脚本管理软件、将 `.js` 插件拖入左下角。
+4. 启动脚本管理软件，将 `.js` 插件拖入左下角。
 5. 在 **My Script** 中加载插件。
 
    <div align="center">
