@@ -9,7 +9,7 @@
 ## Software
 
 * `.jsx`：用于 **Adobe**
-* `.js` ：用于 **Affinity（Designer_v3.2+）**
+* `.js` ：用于 **Affinity（Designer_v3.2.2.4425+）**
 
 ## Other
 * **E-mail :** [kucha0609@qq.com](mailto:kucha0609@qq.com)
